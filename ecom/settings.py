@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os # helps to access file folders
 
+ALLOWED_HOSTS = ['shopfinity.onrender.com']
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 #BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))# enable folder access
@@ -136,3 +138,5 @@ AUTH_USER_MODEL = 'users.User'
 LOGIN_REDIRECT_URL = 'user_profile'
 LOGOUT_REDIRECT_URL = 'product_list'
 LOGIN_URL='login'
+
+ALLOWED_HOSTS = ['shopfinity.onrender.com']
