@@ -11,6 +11,34 @@
             align-items: center;
             height: 100vh;
         }
+        /* Tablets (768px to 1024px) */
+        @media (max-width: 1024px) and (min-width: 768px) {
+            body {
+                font-size: 15px;
+            }
+            .container {
+                padding: 10px;
+                flex-direction: column;
+            }
+        }
+        
+        /* Phones (less than 768px) */
+        @media (max-width: 767px) {
+            body {
+                font-size: 14px;
+            }
+            .navbar {
+                flex-direction: column;
+            }
+            .hero-section {
+                text-align: center;
+                padding: 20px;
+            }
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
 
 
         .signup-container {
