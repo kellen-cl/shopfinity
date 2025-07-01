@@ -208,6 +208,90 @@
             text-decoration: none;
         }
 
+        /* === Responsive Design === */
+
+        /* Tablet Adjustments */
+        @media (max-width: 1024px) {
+            .hero-overlay h1 {
+                font-size: 2.4em;
+            }
+        
+            .hero-overlay p {
+                font-size: 1.1em;
+            }
+        
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        
+            nav div {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 10px;
+            }
+        }
+        
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .hero-overlay h1 {
+                font-size: 2em;
+            }
+        
+            .hero-overlay p {
+                font-size: 1em;
+                padding: 0 10px;
+            }
+        
+            .hero-button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+        
+            .product-card img {
+                height: 160px;
+            }
+        
+            .product-info strong {
+                font-size: 1.1em;
+            }
+        
+            .price {
+                font-size: 1em;
+            }
+        
+            button {
+                font-size: 0.95em;
+                padding: 7px 14px;
+            }
+        
+            nav div {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+        
+            .button {
+                font-size: 0.9em;
+                padding: 8px 15px;
+            }
+        
+            footer {
+                padding: 15px;
+            }
+        
+            footer p {
+                font-size: 0.9em;
+            }
+        
+            .footer-icons {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+        }
+
+
     </style>
 </head>
 <body>
