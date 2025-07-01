@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os # helps to access file folders
 
-ALLOWED_HOSTS = ['shopfinity-m47x.onrender.com']
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-118srw6h8@@s5cc1h!_ymem^%+5cb(fph0+nprtd+sydqj%bqm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shopfinity-m47x.onrender.com']
 
 
 # Application definition
@@ -139,4 +139,4 @@ LOGIN_REDIRECT_URL = 'user_profile'
 LOGOUT_REDIRECT_URL = 'product_list'
 LOGIN_URL='login'
 
-ALLOWED_HOSTS = ['shopfinity.onrender.com']
+
