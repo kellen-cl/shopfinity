@@ -142,6 +142,71 @@
             color: white;
             text-decoration: none;
         }
+        /* === Responsive Styles === */
+
+        /* Medium Screens (Tablets) */
+        @media (max-width: 1024px) {
+            .hero-overlay h1 {
+                font-size: 2.4em;
+            }
+        
+            .contact-container {
+                margin: 30px 20px;
+                padding: 25px;
+            }
+        }
+        
+        /* Small Screens (Phones) */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        
+            nav h2 {
+                margin-bottom: 10px;
+            }
+        
+            nav div {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        
+            .hero-overlay h1 {
+                font-size: 1.8em;
+                padding: 0 10px;
+            }
+        
+            .contact-container {
+                width: 90%;
+                margin: 30px auto;
+                padding: 20px;
+            }
+        
+            .contact-container h2 {
+                font-size: 1.5em;
+            }
+        
+            .contact-container input,
+            .contact-container textarea,
+            .contact-container button {
+                font-size: 1em;
+                padding: 10px;
+            }
+        
+            .footer-icons {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+        
+            .button {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
+
     </style>
 </head>
 <body>
