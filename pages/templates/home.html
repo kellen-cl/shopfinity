@@ -135,6 +135,91 @@
             color: white;
             text-decoration: none;
         }
+        /* === Responsive Media Queries === */
+
+/* Tablets (portrait & landscape, 768px - 1024px) */
+@media (max-width: 1024px) {
+    .hero-overlay h1 {
+        font-size: 2.2em;
+    }
+
+    .hero-overlay p {
+        font-size: 1.1em;
+    }
+
+    .welcome-section {
+        padding: 30px 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav h2 {
+        margin-bottom: 10px;
+    }
+
+    nav div a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
+
+/* Phones (up to 767px) */
+@media (max-width: 767px) {
+    .hero-overlay h1 {
+        font-size: 1.6em;
+    }
+
+    .hero-overlay p {
+        font-size: 1em;
+    }
+
+    .hero-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .hero-section {
+        height: 60vh;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a, .button {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .welcome-section h2 {
+        font-size: 1.5em;
+    }
+
+    .welcome-section p {
+        font-size: 1em;
+    }
+
+    .footer-icons {
+        gap: 12px;
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+}
+
     </style>
 </head>
 <body>
